@@ -1,0 +1,12 @@
+Source: ros-melodic-parameter-assertions
+Section: misc
+Priority: extra
+Maintainer: Oswin So <oswinso@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roscpp, ros-melodic-rostest
+Homepage: http://www.robojackets.org
+Standards-Version: 3.9.2
+
+Package: ros-melodic-parameter-assertions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-roscpp
+Description: A library for ROS parameter assertions
